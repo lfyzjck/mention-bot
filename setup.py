@@ -18,8 +18,8 @@ setup(
     description='mention-bot for gitlab',
     long_description=readme + '\n\n' + history,
     author='lfyzjck',
-    author_email='ck@zhihu.com',
-    url='https://git.in.zhihu.com/lfyzjck/mention-bot',
+    author_email='jickimkim@gmail.com',
+    url='https://github.com/lfyzjck/mention-bot.git',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     install_requires=[
