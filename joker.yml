@@ -1,0 +1,11 @@
+version: 2.0
+base_image: python2:latest
+build:
+  - buildout
+test:
+  unittest:
+    - bin/test
+
+artifacts:
+  targets:
+    - tarball

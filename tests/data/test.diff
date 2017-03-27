@@ -1,0 +1,14 @@
+--- a/alfred/http/handlers/hello_handler.py
++++ b/alfred/http/handlers/hello_handler.py
+@@ -4,7 +4,10 @@
+ from tornado.web import RequestHandler
+
+
+-class HelloHandler(RequestHandler):
++class ExpressHandler(RequestHandler):
+
+     def get(self):
+         self.write('Hello world!')
++
++    def post(self):
++        pass
